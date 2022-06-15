@@ -1,8 +1,19 @@
 .footer{
-    background-color: orange;
+    background-color: #ff6600;
     width: 85%;
+    padding:2px;
+    border: 0;
+    height: 10px;
 }
-
+.footerText{
+    line-height: 12pt;
+    height: 10px;
+}
 .login {
    margin-left: 4rem;
+   height: 10px;
+
+}
+.title{
+    height: 10px;
 }

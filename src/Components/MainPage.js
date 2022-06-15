@@ -9,6 +9,7 @@ export default function MainPage (){
      return(
          
          <center>
+              
         <Header /> 
         <MainData />
         <Footer />
