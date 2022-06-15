@@ -6,7 +6,7 @@ export default function Header (){
         <table className="footer">
                        <tbody>
                 <tr>
-                    <td className="title"><a>Hackers News</a></td>
+                    <td className="title"><a><b>Hackers News</b></a></td>
                     <td className="footerText">
                         <a> new</a> |
                         <a> threads</a> |

@@ -1,5 +1,5 @@
 .mainTable{
-    background-color: whitesmoke;
+    background-color:rgb(246, 246, 239);
     width: 85%;
 
 }
@@ -7,4 +7,10 @@
 
 .points {
     width:auto;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
 }
