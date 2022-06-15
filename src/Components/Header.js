@@ -4,7 +4,7 @@ export default function Header (){
 
      return(
         <table className="footer">
-            <tbody>
+                       <tbody>
                 <tr>
                     <td><a>Hackers News</a></td>
                     <td>

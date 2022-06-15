@@ -1,8 +1,20 @@
+import Entry from './Entry'
+import './MainData.css'
 export default function MainData (){
 
    return(
 
-    <h2>Main Data</h2>
+    <table className="mainTable">
+       <tbody>
+         <Entry />
+         <Entry />
+         <Entry />
+         <Entry />
+         <Entry />
+         <Entry />
+
+       </tbody>
+    </table>
    )
 
 }
