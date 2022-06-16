@@ -1,6 +1,21 @@
+import { useEffect, useState } from "react";
+import { getUsers } from "../controllers/user.controller";
 import "./Entry.css";
 
 export default function Entry() {
+
+  const [users, setUsers] = useState([])
+
+  useEffect(() => {
+    
+    const getDBUsers = async () => {
+      const data = await getUsers();
+      setUsers(data);
+    }
+     console.log(users[0])
+    getDBUsers();
+  }, [])  
+
   return (
     <>
       <tr>
@@ -31,7 +46,7 @@ export default function Entry() {
         <td colSpan={2}></td>
         <td className="subtext">
           <span>64 points</span> by
-          <a> alexsor00</a>
+          <a> {users[0].nickname =! null && users[0].nickname}</a>
           <a> 10 minutes ago</a> | hide |<a> 171 Comments</a>
         </td>
       </tr>
